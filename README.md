@@ -1,0 +1,2 @@
+# notes
+Všelijaké poznámky
