@@ -79,4 +79,4 @@ http://github.com/alperakcan/fuse-ext2
 ### Zdroje
 - https://john-hunt.com/2013/04/25/recovering-data-from-a-wd-mybook-live-2tb-3tbor-similar/
 - https://ubuntu-mate.community/t/cant-locate-fuseext2-on-16-04-for-rpi-3/7329
-- http://github.com/alperakcan/fuse-ext2
+- https://github.com/alperakcan/fuse-ext2
