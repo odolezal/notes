@@ -47,7 +47,7 @@ sudo apt install m4 autoconf automake libtool
 sudo apt install libfuse-dev e2fslibs-dev
 ```
 
-Zdrojáky jsou zde: `https://github.com/alperakcan/fuse-ext2`
+Stáhneme zdrojáky: `https://github.com/alperakcan/fuse-ext2/archive/master.zip`
 
 Rozbalíme: `unzip master.zip`
 
