@@ -24,7 +24,6 @@ Partition table entries are not in disk order.
 
 ` sudo fuseext2 -o ro -o sync_read -o allow_other /dev/sdb4 /mnt/wd`
 
-Výstup:
 fuse-umfuse-ext2: version:'0.4', fuse_version:'29' [main (fuse-ext2.c:331)]
 fuse-umfuse-ext2: enter [do_probe (do_probe.c:30)]
 fuse-umfuse-ext2: leave [do_probe (do_probe.c:55)]
@@ -34,3 +33,6 @@ fuse-umfuse-ext2: opts.volname:  [main (fuse-ext2.c:360)]
 fuse-umfuse-ext2: opts.options: ro,sync_read,allow_other [main (fuse-ext2.c:361)]
 fuse-umfuse-ext2: parsed_options: sync_read,allow_other,ro,fsname=/dev/sdb4 [main (fuse-ext2.c:362)]
 fuse-umfuse-ext2: mounting read-only [main (fuse-ext2.c:378)]
+
+### Zdroje
+- https://john-hunt.com/2013/04/25/recovering-data-from-a-wd-mybook-live-2tb-3tbor-similar/
