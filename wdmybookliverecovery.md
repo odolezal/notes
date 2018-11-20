@@ -42,9 +42,9 @@ fuse-umfuse-ext2: mounting read-only [main (fuse-ext2.c:378)]
 
 Příprava:
 ```
-sudo apt install build-essential
-sudo apt install m4 autoconf automake libtool
-sudo apt install libfuse-dev e2fslibs-dev
+sudo apt-get install build-essential
+sudo apt-get install m4 autoconf automake libtool
+sudo apt-get install libfuse-dev e2fslibs-dev
 ```
 
 Stáhneme zdrojáky: `https://github.com/alperakcan/fuse-ext2/archive/master.zip`
