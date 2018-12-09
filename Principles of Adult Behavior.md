@@ -28,4 +28,4 @@ by John Perry Barlow
 24. Love yourself.
 25. Endure.
 
-**John Perry Barlow (October 3, 1947 – February 7, 2018)** was an American poet and essayist, a cattle rancher, and a cyberlibertarian political activist who had been associated with both the Democratic and Republican parties. He was also a lyricist for the Grateful Dead and a founding member of the Electronic Frontier Foundation and the Freedom of the Press Foundation. He was Fellow Emeritus at Harvard University's Berkman Center for Internet and Society, where he had maintained an affiliation since 1998. (_en.wikipedia.org_)
+**John Perry Barlow (October 3, 1947 – February 7, 2018)** was an American poet and essayist, a cattle rancher, and a cyberlibertarian political activist who had been associated with both the Democratic and Republican parties. He was also a lyricist for the Grateful Dead and a founding member of the Electronic Frontier Foundation and the Freedom of the Press Foundation. He was Fellow Emeritus at Harvard University's Berkman Center for Internet and Society, where he had maintained an affiliation since 1998. (_Source: en.wikipedia.org_)
