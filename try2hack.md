@@ -3,7 +3,7 @@
 Web hry: <https://www.try2hack.me>
 > Cílem hry je řešení rozličných úkolů z oblasti počítačové bezpečnosti (hackingu), přičemž je kladen důraz na realistický zážitek. Nejde o uměle vytvořené úlohy, nýbrž scénáře reálných útoků v rámci testovacího prostředí našeho serveru. Setkat se můžete s úkoly zaměřenými na webový hacking, infrastrukturu, reverzní inženýrství, cracking nebo kryptoanalýzu.
 
-Hrano pod nickem: ```Ondrashack ``` od 16.4.2019. 
+Hrano pod nickem: ```Ondrashack``` od 16.4.2019. 
 
 **Stav k 7.5.2019**: vyreseno 6/15 uloh.
 
@@ -101,8 +101,9 @@ Candidates.#1....: hotmom -> 231992
 ```
 Uf! Odhad hashcat-u na dva dny na nic moc VM. Necham to nejakou dobu bezet...
 
+```
 Password: ????
-
+```
 
 Ukol c. 3 [vyreseno]
 ---
