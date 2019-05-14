@@ -15,7 +15,7 @@ Uvod
 
  * Ukoly vetsinou maji vice zpusobu reseni. Moje motivace byla naucit se neco noveho a hlavne se pobavit. Nektere moje postupy se vam mozna budou zdat prilis komplikovane a pristupy k problemu usmevne najivni, ale dosel jsem k nim vlastni cestou a proto si jich cenim vice, nez kdyz by mi je nekdo poradil.
 
- * Reseni je uverejneno v dobe, kdy jiz je znam vytez souteze. 
+ * Reseni je uverejneno v dobe, kdy jiz je znam vitez souteze. 
 
  * Psano primo na serveru a anglickym prostredim, takze chybi diakritika. Psano jako denik/poznamky, korekce neni :)
 
