@@ -157,7 +157,7 @@ Using wordlist mode with "/usr/share/wordlists/skullsecurity/rockyou.txt".
 ```
 Ihned dostavame dopocitany NT hash a k němu heslo, nalezene ve slovniku.
 Takze, slovnikovy utok se neosvedcil, bude nutne nasadit hrubou silu pomoci hashcatu.
-Upravime zadani na format pro hashcat (viz napr. https://github.com/NotMedic/NetNTLMtoSilverTicket)
+Upravime zadani na format pro hashcat (viz napr. <https://github.com/NotMedic/NetNTLMtoSilverTicket>)
 
 Hledany format hashe je nasledujici:
 ```
@@ -167,8 +167,10 @@ novakp::::f08f68d22994da62bec36e26b0b11d81d90124735dddba60:940f90ec96ce32ec
 Spustime hashcat:
 ```
 # hashcat -m 5500 -a 3 ntlm.hash
+```
 
 A crackujeme:
+```
 Session..........: hashcat
 Status...........: Running
 Hash.Name........: NetNTLMv1 / NetNTLMv1+ESS
