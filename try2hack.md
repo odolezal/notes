@@ -128,10 +128,10 @@ Ukol c. 4 [zatim nevyreseno]
 Ukol c. 5 [vyreseno]
 ---
 Uz podle zdani je jasne odkud vitr vane, budeme utocit na slabou implementaci sifrovani v protokolu MS-CHAPv2.
-Problem je teoreticky popsan napr. zde: https://pentest.blog/attacking-wpa-enterprise-wireless-network/
+Problem je teoreticky popsan napr. zde: <https://pentest.blog/attacking-wpa-enterprise-wireless-network/>
 
 Nemame primo hash hesla, ale to neni nutne protoze autori ukolu nam poskytli rovnou odchycenou dvojci challenge/response.
-Hledam vhodny nastoj v Kali a po chvilce googleni nalezam... jmenuje se "asleap" (https://tools.kali.org/wireless-attacks/asleap)
+Hledam vhodny nastoj v Kali a po chvilce googleni nalezam... jmenuje se ```asleap``` (<https://tools.kali.org/wireless-attacks/asleap>)
 
 Procitam  nejake info (napr.):
 * <https://depthsecurity.com/blog/when-802-1x-peap-eap-ttls-is-worse-than-no-wireless-security>
@@ -169,7 +169,7 @@ novakp::::f08f68d22994da62bec36e26b0b11d81d90124735dddba60:940f90ec96ce32ec
 
 Spustime hashcat:
 ```
-# hashcat -m 5500 -a 3 ntlm.hash
+hashcat -m 5500 -a 3 ntlm.hash
 ```
 
 A crackujeme:
@@ -243,6 +243,9 @@ Rejected.........: 0/128203515494400 (0.00%)
 Restore.Point....: 537919488/916132832 (58.72%)
 Restore.Sub.#1...: Salt:0 Amplifier:136576-136704 Iteration:0-128
 Candidates.#1....: IUtCJUJi -> VY7iMMNX
+
+Started: Wed May 15 18:20:25 2019
+Stopped: Sat May 18 12:17:03 2019
 ```
 
 ```
