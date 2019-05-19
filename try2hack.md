@@ -5,7 +5,7 @@ Web hry: <https://www.try2hack.me>
 
 Hrano pod nickem: ```Ondrashack``` od 16.4.2019. 
 
-**Stav k 7.5.2019**: vyreseno 6/15 uloh.
+**Stav k 19.5.2019**: vyreseno 7/15 uloh.
 
 Kontakt: <https://www.odolezal.cz>
 
@@ -122,7 +122,10 @@ ale ne vsechny, ktere se tvari jako funkcni, skutecne funguji. Nicmene asi 5. se
 Password: Wi3ft0Wpizh8cV
 ```
 
-Ukol c. 5 [zatim nevyreseno]
+Ukol c. 4 [zatim nevyreseno]
+---
+
+Ukol c. 5 [vyreseno]
 ---
 Uz podle zdani je jasne odkud vitr vane, budeme utocit na slabou implementaci sifrovani v protokolu MS-CHAPv2.
 Problem je teoreticky popsan napr. zde: https://pentest.blog/attacking-wpa-enterprise-wireless-network/
@@ -211,11 +214,42 @@ Restore.Point....: 688128/115760814336 (0.00%)
 Restore.Sub.#1...: Salt:0 Amplifier:5632-5888 Iteration:0-256
 Candidates.#1....: Ipi5z5bere -> Qze6enhane
 ```
-LOL!
+Takze... tudy cesta nevede. Na twitteru (<https://twitter.com/spodlesny/status/1128392140772474880>) jsem byl upozornen, ze mam nastevenou nevhodnou masku (resp. ja ponechal tu default nastavenou).
+
+Parametry ```hashcat```u ktere jsem nakonec pouzil:
 
 ```
-Password: ????
+hashcat -m 5500 -a 3 try2hack.me-task5-ntlm.hash ?1?1?1?1?1?1?1?1 -1 ?l?d?u
 ```
+
+A vysledek:
+
+```
+novakp::::f08f68d22994da62bec36e26b0b11d81d90124735dddba60:940f90ec96ce32ec:d7Mus1fH
+
+Session..........: hashcat
+Status...........: Cracked
+Hash.Name........: NetNTLMv1 / NetNTLMv1+ESS
+Hash.Target......: novakp::::f08f68d22994da62bec36e26b0b11d81d90124735...ce32ec
+Time.Started.....: Wed May 15 18:20:26 2019 (2 days, 17 hours)
+Time.Estimated...: Sat May 18 12:17:02 2019 (0 secs)
+Guess.Mask.......: ?1?1?1?1?1?1?1?1 [8]
+Guess.Charset....: -1 ?l?d?u, -2 Undefined, -3 Undefined, -4 Undefined
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   530.9 MH/s (3.97ms) @ Accel:1024 Loops:128 Thr:1 Vec:8
+Recovered........: 1/1 (100.00%) Digests, 1/1 (100.00%) Salts
+Progress.........: 128203515494400/218340105584896 (58.72%)
+Rejected.........: 0/128203515494400 (0.00%)
+Restore.Point....: 537919488/916132832 (58.72%)
+Restore.Sub.#1...: Salt:0 Amplifier:136576-136704 Iteration:0-128
+Candidates.#1....: IUtCJUJi -> VY7iMMNX
+```
+
+```
+Password: d7Mus1fH
+```
+Podekovani [@spodlesny](https://twitter.com/spodlesny) za hint.
+
 
 Ukol c. 6 [vyreseno]
 ---
@@ -355,6 +389,16 @@ A nakonec najdeme heslo celkem jednoduse:
 Password: Bir63Fpw0d9MX
 ```
 
+Ukol c. 7 [zatim nevyreseno]
+---
+
+Ukol c. 8 [zatim nevyreseno]
+---
+
+Ukol c. 9 [zatim nevyreseno]
+---
+
+
 Ukol c. 10 [vyreseno]
 ---
 Analyza sitoveho provozu ze zachyceneho PCAP dumpu, takova klasika vsech soutezi a CTF. Dalsi informace nejsou zadany, takze musime zacit naslepo.
@@ -437,6 +481,12 @@ Uspech. Login je opravdu ```admin``` a heslo je ```falcon```. Nyni uz staci otev
 ```
 Password: Veinsg5Vskg2Fpcb 
 ```
+
+Ukol c. 12 [zatim nevyreseno]
+---
+
+Ukol c. 13 [zatim nevyreseno]
+---
 
 
 Ukol c. 14 [vyreseno]
@@ -539,3 +589,6 @@ takze jsem nebyl jediny, kdo na tomto ukolu zakufroval.
 ```
 Password: Ciw27xDowP20eXnv
 ```
+
+Ukol c. 15 [zatim nevyreseno]
+---
