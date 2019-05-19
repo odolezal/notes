@@ -138,7 +138,7 @@ Procitam  nejake info (napr.):
 * <https://www.hackingloops.com/using-asleap-on-kali-linux/>
 * <https://forums.hak5.org/topic/14755-episode-6x12/>
 
-a zkousim slovnikovi utok se znamim rockyou.txt:
+a zkousim slovnikovy utok se znamym rockyou.txt:
 
 ```
 root@kali:~# asleap -C 94:0f:90:ec:96:ce:32:ec -R f0:8f:68:d2:29:94:da:62:be:c3:6e:26:b0:b1:1d:81:d9:01:24:73:5d:dd:ba:60 -W /usr/share/wordlists/skullsecurity/rockyou.txt 
