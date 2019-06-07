@@ -10,3 +10,4 @@ Všelijaké poznámky
 - [Jak jsem hrál Try2Hack.me](try2hack.md)
 - [Online CTF Hackable.ca](hackable.md)
 - [Online CTF CTFlearn.com](ctflearn.md)
+- Online CTF Root-Me.org _(Autoři si nepřejí zveřejňovat řešení úkolů.)_
