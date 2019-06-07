@@ -4,7 +4,7 @@ Web hry: <https://ctflearn.com>
 
 Hráno pod nickem: ```Ondrashack``` od 30.5.2019. 
 
-**Stav k 7.6.2019**: vyřešeno 3/X uloh.
+**Stav k 7.6.2019**: vyřešeno 4/X úloh.
 
 Kontakt: <https://www.odolezal.cz>
 
