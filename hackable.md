@@ -3,9 +3,9 @@
 Web hry: <https://hackable.ca>
 > This website is targeted for beginner computer enthusiasts who want to expand their computing knowledge. By doing these challenges, you will be exposed to a wide range of major vulnerabilities to programming languages and learn how to prevent vulnerable applications in the real world. This CTF works on a point system, try get on the scoreboards! Good Luck! ;)
 
-Hrano pod nickem: ```Ondrashack``` od 4.6.2019. 
+Hráno pod nickem: ```Ondrashack``` od 4.6.2019. 
 
-**Stav k 5.6.2019**: vyreseno 3/10 uloh.
+**Stav k 5.6.2019**: vyřešeno 3/10 úloh.
 
 Kontakt: <https://www.odolezal.cz>
 
@@ -59,7 +59,7 @@ root@kali:~# nikto -h web.hackable.ca:8082
 + Web Server returns a valid response with junk HTTP methods, this may cause false positives.
 + ...
 ```
-Ja je vidět z výsledku skenu, na webu se nachází zaujímavá složka ```/backupweb/```. Otevřeme tedy URL <http://web.hackable.ca:8082/backupweb/> a dostaneme výpis odkesáře ("Index of:")
+Ja je vidět z výsledku skenu, na webu se nachází zaujímavá složka ```/backupweb/```. Otevřeme tedy URL <http://web.hackable.ca:8082/backupweb/> a dostaneme výpis adresáře ("Index of:")
 
 ```
 Index of /backupweb
