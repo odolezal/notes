@@ -85,3 +85,9 @@ Here is your flag: flag{did_this_m3ss_with_y0ur_h34d}
 * 
 ```
 FLAG: ```did_this_m3ss_with_y0ur_h34d```
+
+IP Tracer
+---
+Hledáme město do kterého geograficky patří IP adresa ```159.167.16.5```. Použijeme jakoukoli "Geo IP" službu, např.: <https://www.geoiptool.com/en/?ip=159.167.16.5>.
+
+FLAG: ``` London```
