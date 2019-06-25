@@ -4,7 +4,7 @@ Web hry: <https://ctf.zsis.hr>
 
 Hráno pod nickem: ```Ondrashack``` od 16.5.2019. 
 
-**Stav k 24.6.2019**: vyřešeno 1/X úloh.
+**Stav k 25.6.2019**: vyřešeno 2/X úloh.
 
 Kontakt: <https://www.odolezal.cz>
 
