@@ -4,7 +4,7 @@ Web hry: <https://ctf.zsis.hr>
 
 Hráno pod nickem: ```Ondrashack``` od 16.5.2019. 
 
-**Stav k 25.6.2019**: vyřešeno 2/X úloh.
+**Stav k 25.6.2019**: vyřešeno 3/X úloh.
 
 Kontakt: <https://www.odolezal.cz>
 
@@ -21,7 +21,7 @@ Takže je nutné se asi podívat trochu zpátky. Přiznávám, vůbec jsem nech�
 
 > Information System Security Bureau hosts this Jeopardy-style CTF platform in an attempt to give information security enthusiasts a competitive environment to sharpen and prove their hacking (offensive) and incident handling (defensive) skills. Challenges are scored based on difficulty, where each player is proving that he solved it by submitting an answer in form of a flag ***(e.g. FLAG-{THEY_4R3_H3RE})***. There are no restrictions on who can join and there are no time limits on the whole competition. Each month there should be set of new challenges included, giving players more ways to climb up the scoreboard. For more questions and support contact us on ctf@zsis.hr. Also, you can join other players at the official Slack channel ZSIS CTF.
 
-a součástí toho textu je i příklad FLAGu. A tento FLAG je validní pro první challenge. Někdy opravdu není nutné hledat složitosti..
+a součástí toho textu je i příklad FLAGu. A tento FLAG je validní pro první challenge. Někdy opravdu není nutné hledat složitosti.
 
 Password: ```FLAG-{THEY_4R3_H3RE}```
 
@@ -88,3 +88,40 @@ Zobrazí se seznam objektů k exportu: ```HTTP object list```, vybereme ```flag.
 Password: ```FLAG-{CROAT14N_H3ROE5}```
 
 _Poznámka pod čarou: V tomto případě byla challenge zjednodušena tím, že byl privátní klíč přiložen k souboru se zachycenou komunikací. Lze se i setkat s challengemi (např. zde: <https://hatsoffsecurity.com/2018/10/30/decrypting-traffic-in-wireshark/>) kde privátní klíč nemáte a musíte podle různých vodítek správný klíč najít různě po internetu. Pro účely CTF se používají testovací, dočasné nebo mimoprodukční privátní klíče. Za běžných okolností nikdy nesmí privátní klíč uniknout ze serveru, jelikož by v tom případě veškeré zabezpečení bylo naprosto neúčinné._
+
+Clones
+---
+
+* Challenge: Clones 
+* Type: Web
+* Points: 4 
+
+Popis challenge ```Black-box testing``` a kategorie ```Web``` dává tušit, že budeme hledat něco skrytého na webové stránce.
+
+Web <https://ctf.zsis.hr/challenges/4_web_clones.php> v prohlížeči zobrazí všeříkající 
+>Hello, World!
+
+Spustíme webový skener ```nikto```, který se na "black box" testování hodí skvěle:
+```
+root@kali:~# nikto -h https://ctf.zsis.hr/challenges/4_web_clones.php
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          31.45.240.57
++ Target Hostname:    ctf.zsis.hr
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /CN=ctf.zsis.hr
+                   Ciphers:  ECDHE-RSA-AES128-GCM-SHA256
+                   Issuer:   /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
++ Start Time:         2019-06-25 12:13:29 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache
++ The site uses SSL and Expect-CT header is not present.
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Uncommon header 'x-firewall-blocked' found, with contents: FLAG-{M4Y_THE_F0RC3_BE_W1TH_YOU}
+...
+```
+Na 4. řádku skenu je detekována neobvyklá HTTP hlavička ```x-firewall-blocked``` která nepřekvapivě obsahuje hodnotu s FLAGem.
+
+Password: ```FLAG-{M4Y_THE_F0RC3_BE_W1TH_YOU}```
+
