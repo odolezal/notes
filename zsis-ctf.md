@@ -4,7 +4,7 @@ Web hry: <https://ctf.zsis.hr>
 
 Hráno pod nickem: ```Ondrashack``` od 16.5.2019. 
 
-**Stav k 25.6.2019**: vyřešeno 3/X úloh.
+**Stav k 25.6.2019**: vyřešeno 4/X úloh.
 
 Kontakt: <https://www.odolezal.cz>
 
@@ -125,3 +125,73 @@ Na 4. řádku skenu je detekována neobvyklá HTTP hlavička ```x-firewall-block
 
 Password: ```FLAG-{M4Y_THE_F0RC3_BE_W1TH_YOU}```
 
+White Noise
+---
+
+* Challenge: White Noise 
+* Type: Web
+* Points: 3 
+
+Stránka <https://ctf.zsis.hr/challenges/3_web_noise.php/> obsahuje už na první pohled nesmyslnou změť znaků: 
+```
+bv8KGsaI7BXS6QyCPBTfN8vFSfJOW6q8CzSi1309FY2MPBoEciUZrpFjFp8CvyK7
+7Dq9Hrjmpm8fXxT9QO9hdPATeIvKhfSpTiyAJRW9e5obDikt6uLkjmdy4IjmYbLR
+tksdcpnquMB84WCbqnwKJJjOsCarNWjhgLvsaSSFFuNKqpVRNsBwbVlExw5ksoCJ
+97bk04ZFyNqZdlQ0Osx0nTEVpJgS8SBi0ND0RCGqq6pEsgEgJcg75V2vFinNaY6a
+LJbDmR4MYuqqK5HuiXBoTDTyVgl6fsh0bsEykIlidMJYRqsao3yiHrQDIcKXE1YQ
+uCoOlJ7yvRwniZxH36ZKyPng17eG9cwDOUsaEAJ9rgwJf4riaq3Jfq0hyeXIqtlf
+oOp2p9bQpIAFN1XYs1HHsHY0VWJlp5BOT1Qia19AKKfxMdveedWGUUHQRqchvN5p
+OVHZXRzHBOfn1LCfYyWTtDJk3VBzJGYxBGxzx6g9UwxWh9bgH8aaLTuOP5ozMm7n
+2EXAKdKEKhB2qNj7VtiGmMvcSTLEgS2jwZThdEVYVw0mkjufMMV9zqmrk76A09Tx
+8NOmrKlmhlIBFcQsZLBycYZw5666f0DoNsLec6Atsj47wVzvGb4T93qfaxmpx0Ok
+szyEF987tdf08PvP0zJaD9qOGMddM2xfB6Thg2oKfEKntgduPWEt54hLRvZExwT9
+DNqUPPE4tosWEFquC5YHagt1LsGjZzsDmTxbIcgcAI8fozJ0FIIPYbRKEx3E7wht
+pOF80VkBEtQ22A2HjKxhWo1BW5f3Cwx2ldam9uYNYPP0pRIJCg0zF2aB7pFKWdMh
+qWEArCnprcqR39AGpAf5DqHLPmvMAh31eIBGkY6LawCeGdV6NabrBScqfHdPZhRd
+ZsUjq05BxIPdVKkJVvawonXD4at4skhrMcLdcQOKzEXvphekNpRbMPPR0iVsCdUp
+pFCCwrm65kBuCQPpfHA2xpTxIO0k2UKrAm46NqcTLNonDdMTVnVsNP0vE0QGUB8u
+                 NOISE IS JUST THE DISTRACTION!
+XcBLDOFoC3Lghy9cW5FJVFfzF6gAHo5FBGrfu6E7aqnrYwEUCjExYU7D0neHMjno
+ZOEuViB5IYxHvbC8uhGtbN7bblTYEgmE5090jK61JDJfPlnjC3NNRUZ2gS0U9nzf
+oIgHtmId0rsPNQ9qTWdLRdN76O2gcBvAkLhN8009stYgj7Gc4UYV7M3eB5uNHZo1
+LGPUHP39j2qCa6Pe0Na8zdmajRY0Qm1C2RxJHAT0CkCMqr1rebAOpXZIOXJFjLhm
+CP6jp0j2kWPLnQdC2NrrKqaznTeHFw4hlaBLbUNwRChftuSvijX3K7C71RPGnTYI
+4ztguhMlT4AmzsSRMPVwXxEZotGMnEuseYIIgv49zEw87oZTeVpbs4aRxREVv9oJ
+76snBwxba4jitjbHeBTHG3ydUc9qlxatECRg8pritKBW3NDipwZ5AxjvKsV606AE
+IrUQQm9j6KgaxTsWqs11ZkwKNsRNyrsgSm7JIg3P1j0ydtvDVxEVSbGGDxtcZVtR
+iAB1QERSYSrblWPhuudnFT3jrxvqtZiLzTNqyEiwwJISGxab1nyHhC0J9w9Cvso5
+mbvUQNrnxafdHqoJNXr5zsOJYYluqJzMV5HLT88qioE0O3KC0cHAEwjDuF8UpIHk
+No6Gwe7PDLQrPB4POLqsiJ6MpeHOWo8KMerjty96k0y9CCZqopTG9ZtydanazvUm
+KlGdUPkeQSotvnTUNMAXL4wZeTaOp4a9qQnlGHAxAY06mU0aGB8sFEsUyCIXHT78
+Jutqc3YM2YToSTyzuH29lu3U7MROFYWptqPFtNswMlUFfteJagTwLWqSIiGnhDNK
+3CqxqT3deYSus7dDo6993A2MSIaamXVqAlY1e2ft07Xtfb6DigNlQP8JyjTUgOkR
+aiTol8SlgPPv0V9icWE2MNMk6GfnuAeFT74efWAvMp1Mla5x7KATxmeD2t0x4fcX
+ngbCdL8Zb9LwkR4rBEl91zM33NB73O4q5g3i2chdm3KGUO8wstFu3sx6g9dkXiK2
+```
+
+ty se navíc při každým načtení změní, takže není nic překvapivého, že obsah webu je úplně k ničemu. Název a popis challenge (```Ignore the noise```) to přímo říká.
+
+Skener ```nikto``` běží celkem dlouho, ale stránka vrací samé false positive výsledky (záměr autorů?), takže tudy cesta nevede. To nejzákladnější (navíc, s ohledem na tento konkrétní typ challenge) je podívat se na HTTP hlavičky v odpověď na prostý dotaz pomocí ```curl```:
+
+```
+root@kali:~# curl -I https://ctf.zsis.hr/challenges/3_web_noise.php
+
+HTTP/1.1 200 OK
+Date: Tue, 25 Jun 2019 11:59:00 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: same-origin
+Set-Cookie: PHPSESSID=cn4mqg400h007i5ps0gg38c356; path=/; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Warning: FLAG-{NO_ON3_SEES_THE_B4RN}
+Strict-Transport-Security: max-age=31536000
+Content-Type: text/html; charset=UTF-8
+```
+
+Server posílá hlavičku ```Warning``` (což je standardní, zdokumentovaná hlavička, viz <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Warning>) s hodnotou FLAGu.
+
+Password: ```FLAG-{NO_ON3_SEES_THE_B4RN}```
