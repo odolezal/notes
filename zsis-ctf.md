@@ -4,7 +4,7 @@ Web hry: <https://ctf.zsis.hr>
 
 Hráno pod nickem: ```Ondrashack``` od 16.5.2019. 
 
-**Stav k 25.6.2019**: vyřešeno 4/X úloh.
+**Stav k 26.6.2019**: vyřešeno 5/X úloh.
 
 Kontakt: <https://www.odolezal.cz>
 
@@ -24,6 +24,32 @@ Takže je nutné se asi podívat trochu zpátky. Přiznávám, vůbec jsem nech�
 a součástí toho textu je i příklad FLAGu. A tento FLAG je validní pro první challenge. Někdy opravdu není nutné hledat složitosti.
 
 Password: ```FLAG-{THEY_4R3_H3RE}```
+
+Inglorious
+---
+* Challenge: Inglorious
+* Type: Steganography
+* Points: 2 
+
+Odkaz challenge vede na JPG obrázek (<https://ctf.zsis.hr/challenges/2_stego_inglorious.jpg>). Na první pohled samozřejmě není vidět nic zajímavého. FLAG bude ukryt někde "uvnitř". Průzkum EXIF dat nepřinesl nic užitečného. 
+
+Následně se nabízí udělat jednoduše Hex dump z obrazového souboru. Na to použijeme nástroj ```xxd``` (viz 
+<https://www.poftut.com/use-linux-xxd-command-tutorial-hex-binary-operations-example/>):
+
+```root@kali:~# xxd 2_stego_inglorious.jpg```
+
+A na konci dump-u najdeme FLAG:
+
+```
+...
+00025730: 0ba2 08ff d900 4600 4c00 4100 4700 2d00  ......F.L.A.G.-.
+00025740: 7b00 4200 5500 5300 4900 4e00 4500 5300  {.B.U.S.I.N.E.S.
+00025750: 5300 5f00 3100 5300 5f00 4100 5f00 4200  S._.1.S._.A._.B.
+00025760: 3000 3000 4d00 4900 4e00 7d00            0.0.M.I.N.}.
+```
+
+Password: ```FLAG-{BUSINESS_1S_A_B00MIN}```
+
 
 Vatreni
 ---
