@@ -4,7 +4,7 @@ Web hry: <https://ctf.zsis.hr>
 
 Hráno pod nickem: ```Ondrashack``` od 16.5.2019. 
 
-**Stav k 26.6.2019**: vyřešeno 5/X úloh.
+**Stav k 26.6.2019**: vyřešeno 6/X úloh.
 
 Kontakt: <https://www.odolezal.cz>
 
@@ -50,6 +50,18 @@ A na konci dump-u najdeme FLAG:
 
 Password: ```FLAG-{BUSINESS_1S_A_B00MIN}```
 
+Player One
+---
+* Challenge: Player One
+* Type: Trivia 
+* Points: 2 
+
+V zadaní je JPG file QR kódu který je ale zjevně upravený, tzn. nelze jej přímo naskenovat/načíst QR čtečkou. Při porovnání s jakýmkoli jiným QR kódem je vidět, že v levém horním rohu je něco, co tam být nemá. Struktura QR kódu je popsána např. zde <https://en.wikipedia.org/wiki/QR_code#/media/File:QR_Code_Structure_Example_3.svg>.
+
+Obrázek stačí stáhnout a v obrázkovém editoru upravit QR kód: tzn. odstranit obrázek z levého horního rohu a nahradit ho černým čtvercem z rohu pravého nebo dolního levého. Upravený korektní QR kód lze dekódovat online např. zde <https://zxing.org/w/decode.jspx> a tak dostaneme FLAG.
+
+
+Password: ```FLAG-{F1RST_T0_THE_3GG}```
 
 Vatreni
 ---
