@@ -56,7 +56,7 @@ Player One
 * Type: Trivia 
 * Points: 2 
 
-V zadaní je JPG file QR kódu který je ale zjevně upravený, tzn. nelze jej přímo naskenovat/načíst QR čtečkou. Při porovnání s jakýmkoli jiným QR kódem je vidět, že v levém horním rohu je něco, co tam být nemá. Struktura QR kódu je popsána např. zde <https://en.wikipedia.org/wiki/QR_code#/media/File:QR_Code_Structure_Example_3.svg>.
+V zadaní je PNG file QR kódu který je ale zjevně upravený, tzn. nelze jej přímo naskenovat/načíst QR čtečkou. Při porovnání s jakýmkoli jiným QR kódem je vidět, že v levém horním rohu je něco, co tam být nemá. Struktura QR kódu je popsána např. zde <https://en.wikipedia.org/wiki/QR_code#/media/File:QR_Code_Structure_Example_3.svg>.
 
 Obrázek stačí stáhnout a v obrázkovém editoru upravit QR kód: tzn. odstranit obrázek z levého horního rohu a nahradit ho černým čtvercem z rohu pravého nebo dolního levého. Upravený korektní QR kód lze dekódovat online např. zde <https://zxing.org/w/decode.jspx> a tak dostaneme FLAG.
 
