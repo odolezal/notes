@@ -4,7 +4,7 @@ Web hry: <https://ctf.zsis.hr>
 
 Hráno pod nickem: ```Ondrashack``` od 16.5.2019. 
 
-**Stav k 26.6.2019**: vyřešeno 6/X úloh.
+**Stav k 3.7.2019**: vyřešeno 7/53 úloh.
 
 Kontakt: <https://www.odolezal.cz>
 
@@ -233,3 +233,21 @@ Content-Type: text/html; charset=UTF-8
 Server posílá hlavičku ```Warning``` (což je standardní, zdokumentovaná hlavička, viz <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Warning>) s hodnotou FLAGu.
 
 Password: ```FLAG-{NO_ON3_SEES_THE_B4RN}```
+
+Zorba
+---
+
+* Challenge: Zorba 
+* Type: Web
+* Points: 4
+
+Po otevření odkazu <https://ctf.zsis.hr/challenges/4_web_zorba.php> se zobrazí text:
+> Setup your dial-up modem and come back here from the IP address located in 'Rwanda' 
+  p.s. Rules: you have 30 sec to solve the challenge
+ 
+Takže musíme stránku otevřít z IP adresy geolokačně patřící do Rwandy a máme na to jen 30 sekund. Tato challenge pro každý pokus generuje jinou zemi. Řešením je použít web proxy umístěnou v dané zemi. Web ctf.zsis.hr používá HTTPS takže potřebujeme server umožnující transparentně přeposílat HTTPS komunikaci. Navíc, je nutné být přihlášen na webu ctf.zsis.hr takže nelze použít ```curl``` ale plnohodnotný webový prohlížeč. Nastavení např. ve Firefoxu: <https://support.mozilla.org/cs/kb/nastaveni-pripojeni-ve-firefoxu>
+
+Seznam proxy serverů např. zde: <http://free-proxy.cz/en/proxylist/country/all/https/ping/all>.
+Úspěch záleží hlavně na tom najít rychle funkční proxy, nastavit připojení a stihnout to do 30 sekund. Generované země jsou někdy více někdy méně exotické, takže záleží na štěstí.
+
+Password: ```FLAG-{TO_B3_ALIVE_IS_T0_UNDO_YOUR_BELT_AND_L0OK_FOR_TROUBLE}```
