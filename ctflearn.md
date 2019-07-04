@@ -4,7 +4,7 @@ Web hry: <https://ctflearn.com>
 
 Hráno pod nickem: ```Ondrashack``` od 30.5.2019. 
 
-**Stav k 4.7.2019**: vyřešeno 6/X úloh.
+**Stav k 4.7.2019**: vyřešeno 9/X úloh.
 
 Kontakt: <https://www.odolezal.cz>
 
@@ -125,3 +125,34 @@ Což je řetězec zakódovaný v Base64 (<https://cs.wikipedia.org/wiki/Base64>)
 Dostáváme text který se již podobá formátu FLAGu, ale jako by byly znaky vyměněny či "přetočeny". Takže to vypadá na nějaký typ substituční šifry, zde konkrétně to je ROT13 (<https://cs.wikipedia.org/wiki/ROT13>). Dešifrováním získáme FLAG.
 
 FLAG: ```n0_body_f0rget_qr_code```
+
+QR Code v2
+---
+
+QR kód ukrývá odkaz na soubor ```Flag.txt``` ve kterém je "nečekaně" FLAG.
+
+FLAG: ```2_QR_4_U```
+
+Where Can My Robot Go?
+---
+
+V zadání je přímo několik nápověd, že už to snad ani lehčí být nemůže... Hned první:
+> Hint: Where do robots find what pages are on a website? 
+
+odkazuje na soubor ```robots.txt```. A ten skutečně existuje: <https://ctflearn.com/robots.txt> a obsahuje:
+
+```
+User-agent: *
+Disallow: /70r3hnanldfspufdsoifnlds.html
+```
+
+Na URL <https://ctflearn.com/70r3hnanldfspufdsoifnlds.html> se nachází FLAG.
+
+FLAG: ```r0b0ts_4r3_th3_futur3```
+
+Paste Those Binaries
+---
+
+Název a zadání challenge odkazuje na "paste" a "bin". Takže domyslet si, že zadaný ID ```r44LxiXq``` patří ke službě Pastebin.com. FLAG je na URL <https://pastebin.com/r44LxiXq>.
+
+FLAG: ```past3_that_b1n```
