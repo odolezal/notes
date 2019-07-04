@@ -4,7 +4,7 @@ Web hry: <https://ctflearn.com>
 
 Hráno pod nickem: ```Ondrashack``` od 30.5.2019. 
 
-**Stav k 4.7.2019**: vyřešeno 5/X úloh.
+**Stav k 4.7.2019**: vyřešeno 6/X úloh.
 
 Kontakt: <https://www.odolezal.cz>
 
@@ -110,3 +110,18 @@ root@kali:~# xxd /root/Downloads/95f6edfb66ef42d774a5a34581f19052.jpg
 ```
 
 FLAG: ```wow!_data_is_cool```
+
+QR Code
+---
+
+Zadaný QR kód není nijak upraven, takže jej lze bez problémů protáhnout jakýmkoli dekodérem. Dostaneme:  
+
+```c3ludCB2ZiA6IGEwX29icWxfczBldHJnX2RlX3BicXI=```
+
+Což je řetězec zakódovaný v Base64 (<https://cs.wikipedia.org/wiki/Base64>), ten lze opět dekódovat:
+
+```synt vf : a0_obql_s0etrg_de_pbqr```
+
+Dostáváme text který se již podobá formátu FLAGu, ale jako by byly znaky vyměněny či "přetočeny". Takže to vypadá na nějaký typ substituční šifry, zde konkrétně to je ROT13 (<https://cs.wikipedia.org/wiki/ROT13>). Dešifrováním získáme FLAG.
+
+FLAG: ```n0_body_f0rget_qr_code```
