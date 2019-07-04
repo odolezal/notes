@@ -4,7 +4,7 @@ Web hry: <https://ctflearn.com>
 
 Hráno pod nickem: ```Ondrashack``` od 30.5.2019. 
 
-**Stav k 7.6.2019**: vyřešeno 4/X úloh.
+**Stav k 4.7.2019**: vyřešeno 5/X úloh.
 
 Kontakt: <https://www.odolezal.cz>
 
@@ -91,3 +91,22 @@ IP Tracer
 Hledáme město do kterého geograficky patří IP adresa ```159.167.16.5```. Použijeme jakoukoli "Geo IP" službu, např.: <https://www.geoiptool.com/en/?ip=159.167.16.5>.
 
 FLAG: ``` London```
+
+Forensics 101
+---
+
+Stáhneme přiložený obrázek a uděláme Hex dump:
+
+
+```
+root@kali:~# xxd /root/Downloads/95f6edfb66ef42d774a5a34581f19052.jpg 
+
+....
+000023a0: 9125 1df9 c23c 1a85 7488 ed0d 9b2f 19b1  .%...<..t..../..
+000023b0: d7c6 28c6 0e66 6c61 677b 776f 7721 5f64  ..(..flag{wow!_d
+000023c0: 6174 615f 6973 5f63 6f6f 6c7d 8512 53be  ata_is_cool}..S.
+000023d0: 6759 470a d06c 1b07 7eb3 715b dc61 3554  gYG..l..~.q[.a5T
+....
+```
+
+FLAG: ```wow!_data_is_cool```
