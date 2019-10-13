@@ -12,3 +12,5 @@ Všelijaké poznámky
 - [CTFlearn.com](ctflearn.md)
 - [ZSIS CTF](zsis-ctf.md)
 - Root-Me.org _(Autoři si nepřejí zveřejňovat řešení úkolů.)_
+- TheCatch 2018 by CESNET _(writeup se nedochoval.)_
+- TheCatch 2019 by CESNET _(probíhá...)_
