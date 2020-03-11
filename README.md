@@ -5,6 +5,7 @@ Všelijaké poznámky
 - [Seznam MAC adres podle výrobce](macvendors.txt)
 - [Seznam českých NTP serverů](czech-ntp-list.md)
 - [Recovery mount filesystemu z WD MyBookLive 3TB](wdmybookliverecovery.md)
+- [stunnel](stunnel.md) - Článek popisující implementaci programu `stunnel`, který zprostředkovává zabezpečené spojení, resp. šifrovaný tunel pro streamovací program `motion` s důvěryhodnými TLS certifikáty od `Let's Encrypt`.
 
 ### CTF
 - [Jak jsem hrál Try2Hack.me](try2hack.md)
