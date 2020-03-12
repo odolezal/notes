@@ -8,7 +8,7 @@ V tomto článku je představena ukázková implementace programu [**stunnel**](
 
 Program [motion](https://motion-project.github.io/) umožňuje streamovat obraz z video zařízení (webkamera, vstupní video karta, DVB-T tunner,...) po síti. Nejčastěji se využívá protokol HTTP, který je ale nezabezpečený. Program sice umožňuje zapnout ověřování pomocí uživatelského jména a hesla, ale nemá v sobě přímo implementovaný HTTPS server pro bezpečné spojení.
 
-Praktické řešení tohoto problému je, že se klient nejprve bezpečně připojí pomocí HTTPS na jíný, "předřazený" TCP port. To obstará `stunnel`. Následeně se data rozšifrují a předají se koncovému programu, zde tedy démonu `motion`. Předání probíhá pouze v rámci serveru, takže nelze data například odposlechnout, nebo podvrhnout. 
+Praktické řešení tohoto problému je, že se klient nejprve bezpečně připojí pomocí HTTPS na jiný, "předřazený" TCP port. To obstará `stunnel`. Následně se data rozšifrují a předají se koncovému programu (démonu), zde tedy démonu `motion`. Předání probíhá pouze v rámci serveru, takže nelze data například odposlechnout, nebo podvrhnout. 
 
 Jako bonus budeme používat bezplatné, důvěryhodné certifikáty od [Let's Encrypt](https://letsencrypt.org/). Postupů jak certifikáty získat, je více. Já jsem postupoval podle tohoto: [How To Use Certbot Standalone Mode to Retrieve Let's Encrypt SSL Certificates on Debian 9](https://www.digitalocean.com/community/tutorials/how-to-use-certbot-standalone-mode-to-retrieve-let-s-encrypt-ssl-certificates-on-debian-9). 
 
