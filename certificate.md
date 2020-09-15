@@ -1,5 +1,8 @@
 # Show full TLS certificate details with OpenSSL
 
+* [Example 1](certificate.md#example-1)
+* [Example 2](certificate.md#example-2)
+
 ## Example 1
 
 ```
