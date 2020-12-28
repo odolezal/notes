@@ -64,6 +64,8 @@ AUTOSSH_PORT=22000
 SSH_OPTIONS="-N -R 2222:localhost:22 some_remote_user@some.host.org -i /root/.ssh/id_rsa"
 ```
 
+* ```systemctl daemon-reload```
+
 * ```systemctl enable /lib/systemd/system/autossh.service```
 
 ## Remote server with public IP address
