@@ -9,6 +9,7 @@ Všelijaké poznámky
 - [Zobrazení TLS certifikátů pomocí OpenSSL](certificate.md)
 - [IR codes for LIVARNO - LED Strip Light](https://github.com/irplus-remote/irplus-codes.github.io/issues/462)
 - [How to find out public IP adress from command line](public-ip.md)
+- [AutoSSH Reverse Tunnel Run As Daemon With Public Key Authentication](autosshtunnel.md)
 
 ### CTF
 - [Jak jsem hrál Try2Hack.me](try2hack.md)
