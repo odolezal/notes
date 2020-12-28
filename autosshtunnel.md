@@ -68,7 +68,23 @@ SSH_OPTIONS="-N -R 2222:localhost:22 some_remote_user@some.host.org -i /root/.ss
 
 * ```systemctl enable /lib/systemd/system/autossh.service```
 
+* ```systemctl start autossh```
+
+* ```systemctl status autossh```
+```
+● autossh.service - autossh
+   Loaded: loaded (/lib/systemd/system/autossh.service; enabled; vendor preset: enabled)
+   Active: active (running) since Mon 2020-12-28 14:04:34 CET; 2s ago
+ Main PID: 583 (autossh)
+    Tasks: 2 (limit: 881)
+   CGroup: /system.slice/autossh.service
+           ├─583 /usr/lib/autossh/autossh -N -R 2222:localhost:22 some_remote_user@some.host.org -i /root/.ssh/id_rsa
+           └─586 /usr/bin/ssh -L 22000:127.0.0.1:22000 -R 22000:127.0.0.1:22001 -N -R 2222:localhost:22 -i /root/.ssh/id_rsa some_remote_user@some.host.org
+```
+
 ## Remote server with public IP address
+
+Refered as **some.host.org**
 
 * ```ssh localhost -p 2222```
 
