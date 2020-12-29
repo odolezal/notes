@@ -74,12 +74,12 @@ SSH_OPTIONS="-N -R 2222:localhost:22 -o StrictHostKeyChecking=no some_remote_use
 ```
 ● autossh.service - autossh
    Loaded: loaded (/lib/systemd/system/autossh.service; enabled; vendor preset: enabled)
-   Active: active (running) since Mon 2020-12-28 14:04:34 CET; 2s ago
- Main PID: 583 (autossh)
+   Active: active (running) since Tue 2020-12-29 16:01:01 CET; 19s ago
+ Main PID: 595 (autossh)
     Tasks: 2 (limit: 881)
    CGroup: /system.slice/autossh.service
-           ├─583 /usr/lib/autossh/autossh -N -R 2222:localhost:22 some_remote_user@some.host.org -i /root/.ssh/id_rsa
-           └─586 /usr/bin/ssh -L 22000:127.0.0.1:22000 -R 22000:127.0.0.1:22001 -N -R 2222:localhost:22 -i /root/.ssh/id_rsa some_remote_user@some.host.org
+           ├─595 /usr/lib/autossh/autossh -N -R 2222:localhost:22 -o StrictHostKeyChecking=no some_remote_user@some.host.org -i /root/.ssh/id_rsa
+           └─598 /usr/bin/ssh -L 22000:127.0.0.1:22000 -R 22000:127.0.0.1:22001 -N -R 2222:localhost:22 -o StrictHostKeyChecking=no -i /root/.ssh/id_rsa some_remote_user@some.host.org
 ```
 
 ## Remote server with public IP address
