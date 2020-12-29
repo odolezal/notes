@@ -26,7 +26,7 @@ For example: ```ssh-copy-id some_remote_user@some.public.host```
 
 * Test creating a reverse tunnel. If you're warned that 2222 isn't free, look for another port
 
-```ssh -N -R 2222:localhost:22 -o ServerAliveInterval=240 -o ServerAliveCountMax=2 some_remote_user@some.public.host```
+```ssh -N -R 2222:localhost:22 -o ServerAliveInterval=240 -o ServerAliveCountMax=2 -o StrictHostKeyChecking=no some_remote_user@some.public.host```
 
 
 * Create new ```systemd``` service:
@@ -61,7 +61,7 @@ AUTOSSH_POLL=60
 AUTOSSH_FIRST_POLL=30
 AUTOSSH_GATETIME=0
 AUTOSSH_PORT=22000
-SSH_OPTIONS="-N -R 2222:localhost:22 some_remote_user@some.host.org -i /root/.ssh/id_rsa"
+SSH_OPTIONS="-N -R 2222:localhost:22 -o StrictHostKeyChecking=no some_remote_user@some.host.org -i /root/.ssh/id_rsa"
 ```
 
 * ```systemctl daemon-reload```
@@ -94,3 +94,5 @@ or
 
 ## Source
 * https://sites.google.com/a/gattis.org/know/Work-and-Tech/operating-systems-and-applications/unix/ssh/autossh
+* https://www.everythingcli.org/ssh-tunnelling-for-fun-and-profit-autossh/
+* https://askubuntu.com/questions/87449/how-to-disable-strict-host-key-checking-in-ssh
