@@ -81,3 +81,4 @@ http://github.com/alperakcan/fuse-ext2
 - https://ubuntu-mate.community/t/cant-locate-fuseext2-on-16-04-for-rpi-3/7329
 - https://github.com/alperakcan/fuse-ext2
 - https://medium.com/@aallan/adding-an-external-disk-to-a-raspberry-pi-and-sharing-it-over-the-network-5b321efce86a
+- https://www.pcmag.com/how-to/how-to-turn-a-raspberry-pi-into-a-nas-for-whole-home-file-sharing
