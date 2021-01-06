@@ -28,6 +28,7 @@ For example: ```ssh-copy-id some_remote_user@some.public.host```
 
 ```ssh -N -R 2222:localhost:22 -o ServerAliveInterval=240 -o ServerAliveCountMax=2 -o StrictHostKeyChecking=no some_remote_user@some.public.host```
 
+**WARNING!** Use ```StrictHostKeyChecking=no``` with caution! This option turns off fingerprint check of remote host. MitM is possible!
 
 * Create new ```systemd``` service:
 
