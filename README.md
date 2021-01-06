@@ -6,7 +6,7 @@ Všelijaké poznámky
 - [Seznam českých NTP serverů](czech-ntp-list.md)
 - [Recovery mount filesystemu z WD MyBookLive 3TB](wdmybookliverecovery.md)
 - [stunnel](stunnel.md) - Článek popisující implementaci programu `stunnel`, který zprostředkovává zabezpečené spojení, resp. šifrovaný tunel pro streamovací program `motion` s důvěryhodnými TLS certifikáty od `Let's Encrypt`.
-- [Zobrazení TLS certifikátů pomocí OpenSSL](certificate.md)
+- [Show full TLS certificate details with OpenSSL](certificate.md)
 - [IR codes for LIVARNO - LED Strip Light](https://github.com/irplus-remote/irplus-codes.github.io/issues/462)
 - [How to find out public IP adress from command line](public-ip.md)
 - [AutoSSH Reverse Tunnel Run As Daemon With Public Key Authentication](autosshtunnel.md)
