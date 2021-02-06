@@ -1,4 +1,10 @@
-File: `/etc/nginx/sites-available/default`:
+# nginx Reverse proxy with HTTPS support
+
+* Mozilla SSL Configuration Generator: **intermediate config** (tested on `nginx/1.14.2`)
+*  SSL Labs's 'SSL Server Rating Guide': **A+**
+
+## Config
+File `/etc/nginx/sites-available/default`:
 
 ```sh
 # Reverse proxy with HTTPS for 127.0.0.1:5000
@@ -41,3 +47,6 @@ server {
     }
   }
   ```
+  ## Sources
+  * https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-with-ssl-as-a-reverse-proxy-for-jenkins
+  * https://ssl-config.mozilla.org/#server=nginx&version=1.17.7&config=intermediate&openssl=1.1.1d&guideline=5.6
