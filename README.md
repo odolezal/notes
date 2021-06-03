@@ -11,6 +11,7 @@ Všelijaké poznámky
 - [How to find out public IP adress from command line](public-ip.md)
 - [AutoSSH Reverse Tunnel Run As Daemon With Public Key Authentication](autosshtunnel.md)
 - [nginx Reverse proxy with HTTPS support](nginx-https-reverse-proxy.md)
+- [LittleBlackBox - Database of private SSL/SSH keys for embedded devices](littleblackbox.csv)
 
 ### CTF
 - [Jak jsem hrál Try2Hack.me](try2hack.md)
