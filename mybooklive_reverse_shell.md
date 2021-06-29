@@ -1,6 +1,6 @@
 # My Book Live reverse shell
 
-This RCE vulnerability is based on **CVE-2018-18472**. Research was done by **WizCase**. Source: <https://iotsecuritynews.com/wizcase-report-vulnerabilities-found-in-wd-my-book-netgear-stora-seagate-home-medion-lifecloud-nas/>
+This reverse shell PoC is based on **CVE-2018-18472**. Research was done by **WizCase**. Source: <https://iotsecuritynews.com/wizcase-report-vulnerabilities-found-in-wd-my-book-netgear-stora-seagate-home-medion-lifecloud-nas/>
 
 1. Turn on TLSv1.0 support in OpenSSL library: <https://www.maartendekeizer.nl/blog/detail/fix-curl-35-error-1425f102-ssl-routines-ssl_choose_client_version-unsupported-protocol>
 
