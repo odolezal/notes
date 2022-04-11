@@ -1,4 +1,4 @@
-# Fixing Asus Tinker Edge T broken sudoers with PwnKit
+# Fixing Asus Tinker Edge T corrupted sudoers with PwnKit
 
 Vendor page: <https://tinker-board.asus.com/product/tinker-edge-t.html>
 
@@ -11,7 +11,7 @@ sudo: parse error in /etc/sudoers near line 28
 sudo: no valid sudoers sources found, quitting
 sudo: unable to initialize policy plugin
 ```
-Simple speaking: file `/etc/sudoers` is corrupted somehow and you **can not run any command with `sudo`**, for exaple `sudo apt-get update`. There is not other option how to switch to `root` user and you are locked in low privileged user. 
+Simple speaking: file `/etc/sudoers` is corrupted somehow and you **can not run any command with `sudo`**, for example `sudo apt-get update`. There is not other option how to switch to `root` user and you are locked in low privileged user. 
 
 Or not? :)
 
