@@ -13,7 +13,7 @@ Všelijaké poznámky
 - [nginx Reverse proxy with HTTPS support](nginx-https-reverse-proxy.md)
 - [LittleBlackBox - Database of private SSL/SSH keys for embedded devices](littleblackbox.csv)
 - [My Book Live reverse shell](mybooklive_reverse_shell.md) - using CVE-2018-18472 vulnerability
-- [Fixing Asus Tinker Edge T broken sudoers with PwnKit](pwnkit_on_asus_tinker.md) - Local Privilege Escalation to get root.
+- [Fixing Asus Tinker Edge T corrupted sudoers with PwnKit](pwnkit_on_asus_tinker.md) - Local Privilege Escalation to get root.
 
 ### CTF
 - [Jak jsem hrál Try2Hack.me](try2hack.md)
